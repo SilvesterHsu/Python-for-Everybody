@@ -1,11 +1,11 @@
 {
-  "structure": {
+    "structure": {
         "readme": "README.md"
     },
-  "plugins": [
-    "-search",
-    "toggle-chapters",
-    "copy-code-button",
-    "katex"
-  ]
+    "plugins": [
+        "-sharing",
+        "-search",
+        "splitter",
+        "expandable-chapters-small"
+    ]
 }
