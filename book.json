@@ -4,8 +4,12 @@
     },
     "plugins": [
         "-sharing",
+        "-lunr",
+        "-search",
+        "search-pro",
         "katex",
         "splitter",
-        "expandable-chapters-small"
+        "expandable-chapters-small",
+        "code"
     ]
 }
