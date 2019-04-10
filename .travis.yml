@@ -14,7 +14,7 @@ install:
   - npm install gitbook-cli -g
   - npm init -y
   - npm install gitbook-plugin-expandable-chapters
-  - npm install gitbook-plugin-code
+  - npm install gitbook-plugin-copy-code-button
   - gitbook install
 
 script:

@@ -2,6 +2,6 @@
     "plugins": [
       "-search",
       "expandable-chapters",
-      "code"
+      "copy-code-button"
     ]
 }
