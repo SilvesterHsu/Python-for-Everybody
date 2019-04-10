@@ -1,7 +1,7 @@
 {
     "plugins": [
       "-search",
-      "expandable-chapters",
+      "toggle-chapters",
       "copy-code-button"
     ]
 }
