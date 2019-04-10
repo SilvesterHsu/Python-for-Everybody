@@ -15,9 +15,9 @@
       "float": {
         "isRewritePageTitle": true,
         "showLevelIcon": true,
-        "level1Icon": "fa fa-hand-o-right",
-        "level2Icon": "fa fa-hand-o-right",
-        "level3Icon": "fa fa-hand-o-right"
+        "tocLevel1Icon": "fa fa-hand-o-right",
+        "tocLevel2Icon": "fa fa-hand-o-right",
+        "tocLevel3Icon": "fa fa-hand-o-right"
       }
     }
   }
