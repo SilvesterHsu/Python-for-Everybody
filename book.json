@@ -1,15 +1,24 @@
 {
-    "structure": {
-        "readme": "README.md"
-    },
-    "plugins": [
-        "-sharing",
-        "-lunr",
-        "-search",
-        "search-pro",
-        "katex",
-        "splitter",
-        "expandable-chapters-small",
-        "code"
-    ]
+  "plugins": [
+    "-sharing",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "katex",
+    "splitter",
+    "expandable-chapters-small",
+    "code",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "anchor-navigation-ex": {
+      "float": {
+        "isRewritePageTitle": true,
+        "showLevelIcon": true,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    }
+  }
 }
