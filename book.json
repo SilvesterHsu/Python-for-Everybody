@@ -4,7 +4,6 @@
     },
     "plugins": [
         "-sharing",
-        "-search",
         "splitter",
         "expandable-chapters-small"
     ]
