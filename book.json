@@ -1,3 +1,6 @@
 {
-    "plugins": ["toggle-chapters"]
+    "plugins": [
+      "-search",
+      "expandable-chapters-small"
+    ]
 }
