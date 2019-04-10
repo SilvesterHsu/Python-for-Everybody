@@ -12,6 +12,7 @@ before_install:
 
 install:
   - npm install gitbook-cli -g
+  - npm init -y
   - gitbook install
 
 script:
