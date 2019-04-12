@@ -16,7 +16,7 @@
 
 ## Creation
 `string` could be created by `''` or `""`.
-```Python
+```python
 str1 = 'Hello'
 str2 = "World"
 ```
