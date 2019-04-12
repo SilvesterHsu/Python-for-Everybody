@@ -1,4 +1,23 @@
 ## Chapter 6: Strings
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+	- [Chapter 6: Strings](#chapter-6-strings)
+		- [Creation](#creation)
+		- [Usages](#usages)
+			- [String connection](#string-connection)
+			- [String Converting](#string-converting)
+			- [String Selection](#string-selection)
+				- [Selection](#selection)
+				- [Slicing](#slicing)
+			- [String Length](#string-length)
+			- [Logical Operator](#logical-operator)
+			- [String Comparison](#string-comparison)
+			- [Searching a String](#searching-a-string)
+			- [Stripping Whitespace](#stripping-whitespace)
+			- [String Library](#string-library)
+
+<!-- /TOC -->
+
 ### Creation
 `string` could be created by `''` or `""`.
 ```Python
@@ -46,8 +65,8 @@ number = 123
 >>> x
 124
 ```
-### String Selection
-#### Selection
+#### String Selection
+##### Selection
 Use `index` and `[ ]` to look inside strings.
 ```Python
 >>> fruit = 'banana'
@@ -71,7 +90,7 @@ Use `index` and `[ ]` to look inside strings.
 >   File "<stdin>", line 1, in <module>
 > IndexError: string index out of range
 > ```
-#### Slicing
+##### Slicing
 ```Python
 >>> s = 'Monty Python'
 >>> print(s[0:4])
@@ -98,14 +117,14 @@ Mont
   Monty Python
   ```
 
-### String Length
+#### String Length
 The built-in function `len()` gives the length of a string.
 ```Python
 >>> fruit = 'banana'
 >>> print(len(fruit))
 6
 ```
-### Logical Operator
+#### Logical Operator
 ```Python
 >>> fruit = 'banana'
 >>> 'n' in fruit
@@ -119,7 +138,7 @@ True
 ...
 Found it!
 ```
-### String Comparison
+#### String Comparison
 ```Python
 if word == 'banana':
     print('All right, bananas.')
@@ -131,7 +150,7 @@ elif word > 'banana':
 else:
     print('All right, bananas.')
 ```
-### Searching a String
+#### Searching a String
 We use the `find()` function to search for a substring within another string.
 * find() finds the first occurrence of the substring
   ```Python
@@ -146,7 +165,7 @@ We use the `find()` function to search for a substring within another string.
   >>> print(aa)
   -1
   ```
-### Stripping Whitespace
+#### Stripping Whitespace
 * `strip()` removes both beginning and ending whitespace
   ```Python
   >>> greet = '   Hello Bob  '
@@ -162,7 +181,7 @@ We use the `find()` function to search for a substring within another string.
   '   Hello Bob'
   ```
 
-### String Library
+#### String Library
 String also has in-built [Library](https://docs.python.org/3/library/stdtypes.html#string-methods).
 ```Python
 >>> stuff = 'Hello world'
