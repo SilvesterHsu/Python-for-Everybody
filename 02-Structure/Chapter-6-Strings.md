@@ -1,22 +1,18 @@
 ## Chapter 6: Strings
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-	- [Chapter 6: Strings](#chapter-6-strings)
-		- [Creation](#creation)
-		- [Usages](#usages)
-			- [String connection](#string-connection)
-			- [String Converting](#string-converting)
-			- [String Selection](#string-selection)
-				- [Selection](#selection)
-				- [Slicing](#slicing)
-			- [String Length](#string-length)
-			- [Logical Operator](#logical-operator)
-			- [String Comparison](#string-comparison)
-			- [Searching a String](#searching-a-string)
-			- [Stripping Whitespace](#stripping-whitespace)
-			- [String Library](#string-library)
-
-<!-- /TOC -->
+- [Chapter 6: Strings](#chapter-6-strings)
+	- [Creation](#creation)
+	- [Usages](#usages)
+		- [String connection](#string-connection)
+		- [String Converting](#string-converting)
+		- [String Selection](#string-selection)
+			- [Selection](#selection)
+			- [Slicing](#slicing)
+		- [String Length](#string-length)
+		- [Logical Operator](#logical-operator)
+		- [String Comparison](#string-comparison)
+		- [Searching a String](#searching-a-string)
+		- [Stripping Whitespace](#stripping-whitespace)
+		- [String Library](#string-library)
 
 ### Creation
 `string` could be created by `''` or `""`.
@@ -43,6 +39,7 @@ Use `int()` to convert a `string ` into a `int` value.
 >>> type(num)
 <class 'int'>
 ```
+
 > This function is commonly used with `input()`.
 > ```python
 > >>> num = int(input('number = '))
@@ -50,6 +47,7 @@ Use `int()` to convert a `string ` into a `int` value.
 > >>> type(num)
 > <class 'int'>
 > ```
+
 **Example:** input a number and get a number one greater than the input.
 ```Python
 >>> x = input("number = ") + 1
@@ -82,6 +80,7 @@ Use `index` and `[ ]` to look inside strings.
   >>> fruit[2-1]
   'a'
   ```
+
 > You will get a python error if you attempt to index beyond the end of a string
 > ```python
 > >>> fruit = 'banana'
@@ -90,6 +89,7 @@ Use `index` and `[ ]` to look inside strings.
 >   File "<stdin>", line 1, in <module>
 > IndexError: string index out of range
 > ```
+
 ##### Slicing
 ```Python
 >>> s = 'Monty Python'
