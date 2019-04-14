@@ -1,27 +1,27 @@
-# Chapter 6: Strings
-- [Chapter 6: Strings](#chapter-6-strings)
-	- [Creation](#creation)
-	- [Usages](#usages)
-		- [String connection](#string-connection)
-		- [String Converting](#string-converting)
-		- [String Selection](#string-selection)
-			- [Selection](#selection)
-			- [Slicing](#slicing)
-		- [String Length](#string-length)
-		- [Logical Operator](#logical-operator)
-		- [String Comparison](#string-comparison)
-		- [Searching a String](#searching-a-string)
-		- [Stripping Whitespace](#stripping-whitespace)
-		- [String Library](#string-library)
+# 第六章 6: 字符串
+- [第六章 6: 字符串](#第六章-6-字符串)
+	- [创建](#创建)
+	- [用法](#用法)
+		- [字符串连接](#字符串连接)
+		- [字符串转换](#字符串转换)
+		- [字符串选择](#字符串选择)
+			- [选择](#选择)
+			- [切片](#切片)
+		- [字符串长度](#字符串长度)
+		- [逻辑判断](#逻辑判断)
+		- [比较](#比较)
+		- [字符查找](#字符查找)
+		- [抹掉空格](#抹掉空格)
+		- [字符串字典](#字符串字典)
 
-## Creation
+## 创建
 `string` could be created by `''` or `""`.
 ```python
 str1 = 'Hello'
 str2 = "World"
 ```
-## Usages
-### String connection
+## 用法
+### 字符串连接
 Use `+` to conect two trings.
 ```Python
 >>> str1 = 'Hello'
@@ -29,7 +29,7 @@ Use `+` to conect two trings.
 >>> str1+str2
 'HelloWorld'
 ```
-### String Converting
+### 字符串转换
 Use `int()` to convert a `string ` into a `int` value.
 ```Python
 >>> str3 = '123'
@@ -63,8 +63,8 @@ number = 123
 >>> x
 124
 ```
-### String Selection
-#### Selection
+### 字符串选择
+#### 选择
 Use `index` and `[ ]` to look inside strings.
 ```Python
 >>> fruit = 'banana'
@@ -90,7 +90,7 @@ Use `index` and `[ ]` to look inside strings.
 > IndexError: string index out of range
 > ```
 
-#### Slicing
+#### 切片
 ```Python
 >>> s = 'Monty Python'
 >>> print(s[0:4])
@@ -117,14 +117,14 @@ Mont
   Monty Python
   ```
 
-### String Length
+### 字符串长度
 The built-in function `len()` gives the length of a string.
 ```Python
 >>> fruit = 'banana'
 >>> print(len(fruit))
 6
 ```
-### Logical Operator
+### 逻辑判断
 ```Python
 >>> fruit = 'banana'
 >>> 'n' in fruit
@@ -138,7 +138,7 @@ True
 ...
 Found it!
 ```
-### String Comparison
+### 比较
 ```Python
 if word == 'banana':
     print('All right, bananas.')
@@ -150,7 +150,7 @@ elif word > 'banana':
 else:
     print('All right, bananas.')
 ```
-### Searching a String
+### 字符查找
 We use the `find()` function to search for a substring within another string.
 * find() finds the first occurrence of the substring
   ```Python
@@ -165,7 +165,7 @@ We use the `find()` function to search for a substring within another string.
   >>> print(aa)
   -1
   ```
-### Stripping Whitespace
+### 抹掉空格
 * `strip()` removes both beginning and ending whitespace
   ```Python
   >>> greet = '   Hello Bob  '
@@ -181,7 +181,7 @@ We use the `find()` function to search for a substring within another string.
   '   Hello Bob'
   ```
 
-### String Library
+### 字符串字典
 String also has in-built [Library](https://docs.python.org/3/library/stdtypes.html#string-methods).
 ```Python
 >>> stuff = 'Hello world'
