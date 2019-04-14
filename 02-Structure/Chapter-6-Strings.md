@@ -15,14 +15,14 @@
 		- [字符串字典](#字符串字典)
 
 ## 创建
-`string` could be created by `''` or `""`.
+`string`可由单双引号创建，`''` 或 `""`。
 ```python
 str1 = 'Hello'
 str2 = "World"
 ```
 ## 用法
 ### 字符串连接
-Use `+` to conect two trings.
+使用 `+` 来连接2个字符串。
 ```Python
 >>> str1 = 'Hello'
 >>> str2 = "World"
@@ -30,7 +30,7 @@ Use `+` to conect two trings.
 'HelloWorld'
 ```
 ### 字符串转换
-Use `int()` to convert a `string ` into a `int` value.
+通过 `int()` 将 `string ` 转换为 `int` 类。
 ```Python
 >>> str3 = '123'
 >>> type(str3)
@@ -40,7 +40,7 @@ Use `int()` to convert a `string ` into a `int` value.
 <class 'int'>
 ```
 
-> This function is commonly used with `input()`.
+> `int()` 常于 `input()` 连用。
 > ```python
 > >>> num = int(input('number = '))
 > number = 123
@@ -48,7 +48,7 @@ Use `int()` to convert a `string ` into a `int` value.
 > <class 'int'>
 > ```
 
-**Example:** input a number and get a number one greater than the input.
+**Example:** $output = input + 1$
 ```Python
 >>> x = input("number = ") + 1
 number = 123
@@ -65,23 +65,23 @@ number = 123
 ```
 ### 字符串选择
 #### 选择
-Use `index` and `[ ]` to look inside strings.
+通过索引 `index` 和方括号 `[ ]` 来查看字符串内部数据。
 ```Python
 >>> fruit = 'banana'
 >>> index = 1
 >>> fruit[index]
 'a'
 ```
-* `index` must be a integer
-* `index` must start from `0`
-* `index` can be an expression that is computed
+* `index` 必须为整数
+* `index` 必须从 `0` 开始
+* `index` 可以是运算操作
   ```Python
   >>> fruit = 'banana'
   >>> fruit[2-1]
   'a'
   ```
 
-> You will get a python error if you attempt to index beyond the end of a string
+> 如果索引 `index` 超出字符串长度，将会导致错误。
 > ```python
 > >>> fruit = 'banana'
 > >>> fruit[10]
@@ -96,17 +96,17 @@ Use `index` and `[ ]` to look inside strings.
 >>> print(s[0:4])
 Mont
 ```
-* The second number is one beyond the end of the slice - “up to but not including”
+* 切片位置到第二个数之前，不包括第二个数。
   ```Python
   >>> print(s[6:7])
   P
   ```
-* If the second number is beyond the end of the string, it stops at the end
+* 如果索引超出范围，切片会在字符串末尾结束。
   ```Python
   >>> print(s[6:20])
   Python
   ```
-* vacant is assumed to be the beginning or end of the string respectively
+* 左、右缺省将被分别视作从头开始和到末尾结束。
   ```python
   >>> s = 'Monty Python'
   >>> print(s[:2])
@@ -118,7 +118,7 @@ Mont
   ```
 
 ### 字符串长度
-The built-in function `len()` gives the length of a string.
+内建函数 `len()` 可用来计算字符串长度。
 ```Python
 >>> fruit = 'banana'
 >>> print(len(fruit))
@@ -151,28 +151,28 @@ else:
     print('All right, bananas.')
 ```
 ### 字符查找
-We use the `find()` function to search for a substring within another string.
-* find() finds the first occurrence of the substring
+我们通过 `find()` 来寻找字符串中的子字符串。
+* find() 寻找子字符串第一次出现的位置。
   ```Python
   >>> fruit = 'banana'
   >>> pos = fruit.find('na')
   >>> print(pos)
   2
   ```
-* If the substring is not found, find() returns -1
+* 如果子字符串未被找到，则 `find()` 返回 `-1`。
   ```Python
   >>> aa = fruit.find('z')
   >>> print(aa)
   -1
   ```
 ### 抹掉空格
-* `strip()` removes both beginning and ending whitespace
+* `strip()` 同时抹掉开头和结尾的空格（子字符串）。
   ```Python
   >>> greet = '   Hello Bob  '
   >>> greet.strip()
   'Hello Bob'
   ```
-* `lstrip()` and `rstrip()` remove whitespace at the left or right
+* `lstrip()` 和 `rstrip()` 分别抹掉开头和结尾的空格（子字符串）。
   ```Python
   >>> greet = '   Hello Bob  '
   >>> greet.lstrip()
@@ -182,7 +182,7 @@ We use the `find()` function to search for a substring within another string.
   ```
 
 ### 字符串字典
-String also has in-built [Library](https://docs.python.org/3/library/stdtypes.html#string-methods).
+字符串内建函数库 [Library](https://docs.python.org/3/library/stdtypes.html#string-methods).
 ```Python
 >>> stuff = 'Hello world'
 >>> type(stuff)
