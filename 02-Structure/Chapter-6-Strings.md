@@ -182,7 +182,7 @@ else:
   ```
 
 ### 字符串字典
-字符串内建函数库 [Library](https://docs.python.org/3/library/stdtypes.html#string-methods).
+字符串内建函数库 [Library](https://docs.python.org/3/library/stdtypes.html#string-methods)。
 ```Python
 >>> stuff = 'Hello world'
 >>> type(stuff)
