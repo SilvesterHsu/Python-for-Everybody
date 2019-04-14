@@ -12,6 +12,7 @@
 ```Python
 handle = open(filename, mode)
 ```
+
 |   模式    |                                   描述                                   |
 |:---------:|:------------------------------------------------------------------------:|
 | r（默认） |                以只读方式打开文件，指针将会放在文件的开头             |
@@ -50,11 +51,13 @@ Complex is better than complicated.\n
 文件中的每一行都是字符串，所以字符串共同构成**序列**。
 * 有多少行，就有多少个字符串
 * 序列存在先后顺序
+
 ```Python
 xfile = open('this.txt')
 for cheese in xfile:
     print(cheese)
 ```
+
 **注：** 每一个字符串的末尾是换行符`\n`，同时`print()`也会自动换行，因此打印出来的字符串之间会空一行。
 ```
 The Zen of Python, by Tim Peters
@@ -70,6 +73,7 @@ Simple is better than complex.
 Complex is better than complicated.
 ...
 ```
+
 ### 整个文件读取
 将整个文件读入**一个字符串**。
 ```Python
@@ -77,6 +81,7 @@ fhand = open('this.txt')
 inp = fhand.read()
 print(inp)
 ```
+
 ```
 The Zen of Python, by Tim Peters
 
@@ -107,6 +112,7 @@ with open('this.txt') as fhand:
     for i in inp[:5]:
         print(i)
 ```
+
 ```
 The Zen of Python, by Tim Peters
 
