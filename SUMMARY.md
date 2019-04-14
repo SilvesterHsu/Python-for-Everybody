@@ -1,7 +1,7 @@
 * [简介](README.md)
   * [零基础程序设计（Python 入门）]()
   * [Python 数据结构](/02-Structure/README.md)
-    - [第六章 6: 字符串](/02-Structure/Chapter-6-Strings.md#第六章-6-字符串)
+    - [第六章: 字符串](/02-Structure/Chapter-6-Strings.md#第六章-字符串)
       - [创建](/02-Structure/Chapter-6-Strings.md#创建)
       - [用法](/02-Structure/Chapter-6-Strings.md#用法)
         - [字符串连接](/02-Structure/Chapter-6-Strings.md#字符串连接)
