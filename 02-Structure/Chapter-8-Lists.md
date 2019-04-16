@@ -19,20 +19,20 @@
 L = [1, 24, 76]
 ```
 * 列表中可录入任何python数据类型
-```Python
-L_1 = [1, 24, 76]
-L_2 = ['red', 'yellow', 'blue']
-```
+  ```Python
+  L_1 = [1, 24, 76]
+  L_2 = ['red', 'yellow', 'blue']
+  ```
 
 * 列表可以为空
-```Python
-L_3 = []
-```
+  ```Python
+  L_3 = []
+  ```
 
 * 列表内容有序
-```Python
-L = [1, 24, 76]
-```
+  ```Python
+  L = [1, 24, 76]
+  ```
 
 ## 用法
 ### 数据选择
@@ -46,33 +46,33 @@ Glenn
 ```
 与`string`相比，`string`内部数据不能改变，而`list`可以改变内部数据
 * 修改`string`数据
-```Python
-fruit = 'Banana'
-fruit[0] = 'b'
-```
+  ```Python
+  fruit = 'Banana'
+  fruit[0] = 'b'
+  ```
 
-```
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-<ipython-input-2-2bc78b004470> in <module>
-      1 fruit = 'Banana'
-----> 2 fruit[0] = 'b'
+  ```
+  ---------------------------------------------------------------------------
+  TypeError                                 Traceback (most recent call last)
+  <ipython-input-2-2bc78b004470> in <module>
+        1 fruit = 'Banana'
+  ----> 2 fruit[0] = 'b'
 
-TypeError: 'str' object does not support item assignment
-```
+  TypeError: 'str' object does not support item assignment
+  ```
 
 * 修改`list`数据
-```Python
-lotto = [2, 14, 26, 41, 63]
-print(lotto)
-lotto[2] = 28
-print(lotto)
-```
+  ```Python
+  lotto = [2, 14, 26, 41, 63]
+  print(lotto)
+  lotto[2] = 28
+  print(lotto)
+  ```
 
-```
-[2, 14, 26, 41, 63]
-[2, 14, 28, 41, 63]
-```
+  ```
+  [2, 14, 26, 41, 63]
+  [2, 14, 28, 41, 63]
+  ```
 ### 连接
 使用 `+` 来连接2个列表。
 ```Python
@@ -144,37 +144,41 @@ print(friends)
 ```
 ### 常用内建函数
 * `len()`:
-```Python
-nums = [3, 41, 12, 9, 74, 15]
-print(len(nums))
-```
-```
-6
-```
+  ```Python
+  nums = [3, 41, 12, 9, 74, 15]
+  print(len(nums))
+  ```
+
+  ```
+  6
+  ```
 
 * `max()`:
-```Python
-print(max(nums))
-```
-```
-74
-```
+  ```Python
+  print(max(nums))
+  ```
+
+  ```
+  74
+  ```
 
 * `min()`:
-```Python
-print(min(nums))
-```
-```
-3
-```
+  ```Python
+  print(min(nums))
+  ```
+
+  ```
+  3
+  ```
 
 * `sum()`:
-```Python
-print(sum(nums))
-```
-```
-154
-```
+  ```Python
+  print(sum(nums))
+  ```
+
+  ```
+  154
+  ```
 
 ### 字典
 列表内建函数库[Library](http://docs.python.org/tutorial/datastructures.html)。
