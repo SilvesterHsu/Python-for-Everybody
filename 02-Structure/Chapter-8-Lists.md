@@ -44,12 +44,13 @@ print(friends[1])
 ```Python
 Glenn
 ```
-与`string`相比，`string`内部数据不能改变，而列表可以改变内部数据
+与`string`相比，`string`内部数据不能改变，而`list`可以改变内部数据
 * 修改`string`数据
 ```Python
 fruit = 'Banana'
 fruit[0] = 'b'
 ```
+
 ```
 ---------------------------------------------------------------------------
 TypeError                                 Traceback (most recent call last)
@@ -67,6 +68,7 @@ print(lotto)
 lotto[2] = 28
 print(lotto)
 ```
+
 ```
 [2, 14, 26, 41, 63]
 [2, 14, 28, 41, 63]
