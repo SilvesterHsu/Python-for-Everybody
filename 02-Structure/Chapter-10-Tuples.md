@@ -28,7 +28,7 @@ TypeError: 'tuple' object does not support item assignment
 
 ## 用法
 ### 排序
-`sorted`
+排序使用`sorted`函数
 ```Python
 sorted(iterable, /, *, key=None, reverse=False)
 ```
