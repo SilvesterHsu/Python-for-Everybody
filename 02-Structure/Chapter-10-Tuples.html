@@ -1,0 +1,1122 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第10章: 元组 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Chapter-10-Tuples.html" />
+    
+    
+    <link rel="prev" href="Chapter-9-Dictionaries.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" >
+            
+                <span>
+            
+                    
+                    零基础程序设计（Python 入门）
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Python 数据结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#第六章-字符串">
+            
+                    
+                    第六章: 字符串
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1.1" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#创建">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#用法">
+            
+                    
+                    用法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1.2.1" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#字符串连接">
+            
+                    
+                    字符串连接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.2" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#字符串转换">
+            
+                    
+                    字符串转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.3" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#字符串选择">
+            
+                    
+                    字符串选择
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1.2.3.1" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#选择">
+            
+                    
+                    选择
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.3.2" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#切片">
+            
+                    
+                    切片
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.4" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#字符串长度">
+            
+                    
+                    字符串长度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.5" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#逻辑判断">
+            
+                    
+                    逻辑判断
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.6" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#比较">
+            
+                    
+                    比较
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.7" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#字符查找">
+            
+                    
+                    字符查找
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.8" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#抹掉空格">
+            
+                    
+                    抹掉空格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.1.2.9" data-path="Chapter-6-Strings.html">
+            
+                <a href="Chapter-6-Strings.html#字符串字典">
+            
+                    
+                    字符串字典
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2" data-path="Chapter-7-Files.html">
+            
+                <a href="Chapter-7-Files.html#第七章-文件">
+            
+                    
+                    第七章: 文件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.2.1" data-path="Chapter-7-Files.html">
+            
+                <a href="Chapter-7-Files.html#创建">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2.2" data-path="Chapter-7-Files.html">
+            
+                <a href="Chapter-7-Files.html#用法">
+            
+                    
+                    用法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.2.2.1" data-path="Chapter-7-Files.html">
+            
+                <a href="Chapter-7-Files.html#序列读取">
+            
+                    
+                    序列读取
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2.2.2" data-path="Chapter-7-Files.html">
+            
+                <a href="Chapter-7-Files.html#整个文件读取">
+            
+                    
+                    整个文件读取
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2.3" data-path="Chapter-7-Files.html">
+            
+                <a href="Chapter-7-Files.html#扩展">
+            
+                    
+                    扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2.4" data-path="Chapter-7-Files.html">
+            
+                <a href="Chapter-7-Files.html#练习">
+            
+                    
+                    练习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#第八章-列表">
+            
+                    
+                    第八章: 列表
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.3.1" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#创建">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.2" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#用法">
+            
+                    
+                    用法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.3.2.1" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#数据选择">
+            
+                    
+                    数据选择
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.2.2" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#连接">
+            
+                    
+                    连接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.2.3" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#长度">
+            
+                    
+                    长度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.2.4" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#切片">
+            
+                    
+                    切片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.2.5" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#逻辑">
+            
+                    
+                    逻辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.2.6" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#排序">
+            
+                    
+                    排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.2.7" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#常用内建函数">
+            
+                    
+                    常用内建函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.2.8" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#字典">
+            
+                    
+                    字典
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3.3" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#附加">
+            
+                    
+                    附加
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.3.3.1" data-path="Chapter-8-Lists.html">
+            
+                <a href="Chapter-8-Lists.html#列表与字符串">
+            
+                    
+                    列表与字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#第九章-字典">
+            
+                    
+                    第九章: 字典
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.4.1" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#创建">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4.2" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#用法">
+            
+                    
+                    用法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.4.2.1" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#数据选择">
+            
+                    
+                    数据选择
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.4.2.1.1" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#python新旧">
+            
+                    
+                    Python新旧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4.2.1.2" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#获取-key">
+            
+                    
+                    获取 Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4.2.1.3" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#获取-value">
+            
+                    
+                    获取 Value
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4.2.1.4" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#获取一对数据-items">
+            
+                    
+                    获取一对数据 items
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4.2.2" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#逻辑">
+            
+                    
+                    逻辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4.2.3" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#计数">
+            
+                    
+                    计数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.4.2.3.1" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#通常">
+            
+                    
+                    通常
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4.2.3.2" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#字典内置函数get">
+            
+                    
+                    字典内置函数get()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4.2.3.3" data-path="Chapter-9-Dictionaries.html">
+            
+                <a href="Chapter-9-Dictionaries.html#找出最大值">
+            
+                    
+                    找出最大值
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.5" data-path="Chapter-10-Tuples.html">
+            
+                <a href="Chapter-10-Tuples.html#第10章-元组">
+            
+                    
+                    第10章: 元组
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.5.1" data-path="Chapter-10-Tuples.html">
+            
+                <a href="Chapter-10-Tuples.html#创建">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.5.2" data-path="Chapter-10-Tuples.html">
+            
+                <a href="Chapter-10-Tuples.html#用法">
+            
+                    
+                    用法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.5.2.1" data-path="Chapter-10-Tuples.html">
+            
+                <a href="Chapter-10-Tuples.html#排序">
+            
+                    
+                    排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" >
+            
+                <span>
+            
+                    
+                    使用 Python 访问网络数据
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" >
+            
+                <span>
+            
+                    
+                    Python 数据库开发
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" >
+            
+                <span>
+            
+                    
+                    毕业项目：使用 Python 获取并处理数据，并用可视化方式展现数据
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第10章: 元组</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x7B2C;10&#x7AE0;-&#x5143;&#x7EC4;"><b>1. </b>&#x7B2C;10&#x7AE0;: &#x5143;&#x7EC4;</a></li><ul><li><span class="title-icon "></span><a href="#&#x521B;&#x5EFA;"><b>1.1. </b>&#x521B;&#x5EFA;</a></li><li><span class="title-icon "></span><a href="#&#x7528;&#x6CD5;"><b>1.2. </b>&#x7528;&#x6CD5;</a></li><ul><li><span class="title-icon "></span><a href="#&#x6392;&#x5E8F;"><b>1.2.1. </b>&#x6392;&#x5E8F;</a></li></ul></ul></ul></div><a href="#&#x7B2C;10&#x7AE0;-&#x5143;&#x7EC4;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x7B2C;10&#x7AE0;-&#x5143;&#x7EC4;"><a name="&#x7B2C;10&#x7AE0;-&#x5143;&#x7EC4;" class="anchor-navigation-ex-anchor" href="#&#x7B2C;10&#x7AE0;-&#x5143;&#x7EC4;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x7B2C;10&#x7AE0;: &#x5143;&#x7EC4;</h1>
+<ul>
+<li><a href="#&#x7B2C;10&#x7AE0;-&#x5143;&#x7EC4;">&#x7B2C;10&#x7AE0;: &#x5143;&#x7EC4;</a><ul>
+<li><a href="#&#x521B;&#x5EFA;">&#x521B;&#x5EFA;</a></li>
+<li><a href="#&#x7528;&#x6CD5;">&#x7528;&#x6CD5;</a><ul>
+<li><a href="#&#x6392;&#x5E8F;">&#x6392;&#x5E8F;</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x521B;&#x5EFA;"><a name="&#x521B;&#x5EFA;" class="anchor-navigation-ex-anchor" href="#&#x521B;&#x5EFA;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x521B;&#x5EFA;</h2>
+<p>&#x5217;&#x8868;&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x548C;&#x4FEE;&#x6539;&#x6570;&#x636E;&#xFF0C;&#x5E76;&#x901A;&#x8FC7;<code>(</code> <code>)</code>&#x6765;&#x521B;&#x5EFA;&#x3002;</p>
+<pre><code class="lang-Python"><span class="hljs-meta">&gt;&gt;&gt; </span>T = (<span class="hljs-string">&apos;Glenn&apos;</span>, <span class="hljs-string">&apos;Sally&apos;</span>, <span class="hljs-string">&apos;Joseph&apos;</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>T[<span class="hljs-number">2</span>]
+<span class="hljs-string">&apos;Joseph&apos;</span>
+</code></pre>
+<p>&#x4E0E;<code>string</code>&#x7C7B;&#x578B;&#x76F8;&#x4F3C;&#xFF0C;&#x4F60;&#x65E0;&#x6CD5;&#x4FEE;&#x6539;&#x5176;&#x5185;&#x90E8;&#x6570;&#x636E;</p>
+<pre><code class="lang-Python"><span class="hljs-meta">&gt;&gt;&gt; </span>T[<span class="hljs-number">2</span>] = <span class="hljs-string">&apos;Jim&apos;</span>
+Traceback (most recent call last):
+  File <span class="hljs-string">&quot;&lt;stdin&gt;&quot;</span>, line <span class="hljs-number">1</span>, <span class="hljs-keyword">in</span> &lt;module&gt;
+TypeError: <span class="hljs-string">&apos;tuple&apos;</span> object does <span class="hljs-keyword">not</span> support item assignment
+</code></pre>
+<p><strong>&#x4F18;&#x70B9;&#xFF1A;</strong></p>
+<ul>
+<li>&#x5185;&#x5B58;&#x4F7F;&#x7528;&#x66F4;&#x5C11;</li>
+<li>&#x6267;&#x884C;&#x6548;&#x7387;&#x66F4;&#x9AD8;</li>
+</ul>
+<blockquote>
+<p>&#x4E34;&#x65F6;&#x53D8;&#x91CF;&#x901A;&#x5E38;&#x4F7F;&#x7528;<code>tuple</code></p>
+</blockquote>
+<h2 id="&#x7528;&#x6CD5;"><a name="&#x7528;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x7528;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x7528;&#x6CD5;</h2>
+<h3 id="&#x6392;&#x5E8F;"><a name="&#x6392;&#x5E8F;" class="anchor-navigation-ex-anchor" href="#&#x6392;&#x5E8F;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.1. &#x6392;&#x5E8F;</h3>
+<p>&#x6392;&#x5E8F;&#x4F7F;&#x7528;<code>sorted</code>&#x51FD;&#x6570;</p>
+<pre><code class="lang-Python">sorted(iterable, /, *, key=<span class="hljs-keyword">None</span>, reverse=<span class="hljs-keyword">False</span>)
+</code></pre>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-Python"><span class="hljs-meta">&gt;&gt;&gt; </span>c = {<span class="hljs-string">&apos;a&apos;</span>:<span class="hljs-number">10</span>, <span class="hljs-string">&apos;b&apos;</span>:<span class="hljs-number">1</span>, <span class="hljs-string">&apos;c&apos;</span>:<span class="hljs-number">22</span>}
+<span class="hljs-meta">&gt;&gt;&gt; </span>tmp = list()
+<span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">for</span> k, v <span class="hljs-keyword">in</span> c.items() :
+<span class="hljs-meta">... </span>    tmp.append( (v, k) )
+...
+<span class="hljs-meta">&gt;&gt;&gt; </span>print(tmp)
+[(<span class="hljs-number">10</span>, <span class="hljs-string">&apos;a&apos;</span>), (<span class="hljs-number">22</span>, <span class="hljs-string">&apos;c&apos;</span>), (<span class="hljs-number">1</span>, <span class="hljs-string">&apos;b&apos;</span>)]
+<span class="hljs-meta">&gt;&gt;&gt; </span>tmp = sorted(tmp, reverse=<span class="hljs-keyword">True</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>print(tmp)
+[(<span class="hljs-number">22</span>, <span class="hljs-string">&apos;c&apos;</span>), (<span class="hljs-number">10</span>, <span class="hljs-string">&apos;a&apos;</span>), (<span class="hljs-number">1</span>, <span class="hljs-string">&apos;b&apos;</span>)]
+</code></pre>
+<p>&#x53EF;&#x7528;&#x6765;&#x7B5B;&#x9009;&#x51FA;&#x73B0;&#x9891;&#x7387;&#x6700;&#x9AD8;&#x7684;&#x524D;&#x51E0;&#x4E2A;&#x7C7B;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Chapter-9-Dictionaries.html#找出最大值" class="navigation navigation-prev " aria-label="Previous page: 找出最大值">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Chapter-10-Tuples.html#创建" class="navigation navigation-next " aria-label="Next page: 创建">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第10章: 元组","level":"1.1.2.5","depth":3,"next":{"title":"创建","level":"1.1.2.5.1","depth":4,"anchor":"#创建","path":"02-Structure/Chapter-10-Tuples.md","ref":"02-Structure/Chapter-10-Tuples.md#创建","articles":[]},"previous":{"title":"找出最大值","level":"1.1.2.4.2.3.3","depth":6,"anchor":"#找出最大值","path":"02-Structure/Chapter-9-Dictionaries.md","ref":"02-Structure/Chapter-9-Dictionaries.md#找出最大值","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-sharing","-lunr","-search","search-pro","katex","splitter","expandable-chapters-small","code","anchor-navigation-ex"],"pluginsConfig":{"splitter":{},"search-pro":{},"code":{"copyButtons":true},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"showLevelIcon":true,"level1Icon":"","isRewritePageTitle":true,"level2Icon":"","level3Icon":"","tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","floatIcon":"fa fa-navicon"},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"expandable-chapters-small":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"02-Structure/Chapter-10-Tuples.md","mtime":"2019-04-22T08:55:24.595Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-22T08:56:25.774Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
