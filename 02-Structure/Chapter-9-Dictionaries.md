@@ -78,7 +78,7 @@ dict_keys(['money', 'tissues', 'candy'])
 |    函数     |   返回类型    |                             示例                             |
 |:-----------:|:-------------:|:------------------------------------------------------------:|
 |  `.keys()`  |  `dict_keys`  |          `dict_keys(['money', 'tissues', 'candy'])`          |
-| `.valuse()` | `dict_values` |                  `dict_values([12, 75, 3]`)                  |
+| `.valuse()` | `dict_values` |                  `dict_values([12, 75, 3])`                  |
 | `.items()`  | `dict_items`  | `dict_items([('money', 12), ('tissues', 75), ('candy', 3)])` |
 
 #### 获取 `Key`
